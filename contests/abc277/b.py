@@ -2,7 +2,7 @@ N = int(input())
 L = []
 for i in range(N):
     L.append(input())
-
+# TODO:タプルじゃなくて良いですね
 suit_s = ('H', 'D', 'C', 'S')
 num_s = ('A', '2', '3', '4', '5', '6', '7', '8', '9', 'T', 'J', 'Q', 'K')
 for s in L:
