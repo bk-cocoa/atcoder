@@ -64,6 +64,7 @@ class UnionFind():
         return '\n'.join(f'{r}: {m}' for r, m in self.all_group_members().items())
 
 
+# TODO:なにかやばいことになってたので修正予定
 uf = UnionFind()
 print(uf.parents)
 uf.union(3, 4)
